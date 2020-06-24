@@ -17,11 +17,15 @@ class Shoe
 
   def brand=brand
     @brand=brand
-    if brand = brand 
-      BRANDS << brand 
-    end 
   end 
-   
+
+def brand 
+  if BRANDS.include?!(brand)
+    BRANDS << brand 
+  end 
+end 
    #unique brands : brand, size - 3 arguments 
    
 end
+
+   
