@@ -6,7 +6,7 @@ class Shoe
 
   def initialize(brand)
     @brand = brand
-    BRANDS << brand
+    if BRANDS.BRANDS << brand
   end
 
    
@@ -19,10 +19,7 @@ class Shoe
     @brand=brand
   end 
 
-def brand 
-  if BRANDS.include?!(brand)
-    BRANDS << brand 
-  end 
+
 end 
    #unique brands : brand, size - 3 arguments 
    
