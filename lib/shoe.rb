@@ -22,7 +22,6 @@ class Shoe
   end 
 
 
-end 
    #unique brands : brand, size - 3 arguments 
    
 end
